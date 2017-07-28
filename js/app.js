@@ -822,7 +822,7 @@ $(window).load(function() {
 		list_view += '<li class="ui-li-anchor"><a id="'+ data[i].number +'" class="pop_asma"  data-position-to="window">'+ data[i].number + '. ' +data[i].transliteration+'</a></li>';
 	}
 	https://aladhan.com/
-	list_view+='<li class="ui-group-index">Data source: <a id="source_url" href="https://aladhan.com/">https://aladhan.com/</a></li>'
+	list_view+='<li class="ui-group-index">Data source: https://aladhan.com/</li>'
 	var ul_list = $("#list-data");
 	ul_list.html(list_view);
 	
